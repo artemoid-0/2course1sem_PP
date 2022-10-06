@@ -1,5 +1,5 @@
 """
-WSGI config for lab3_test project.
+WSGI config for lab3-8 project.
 
 It exposes the WSGI callable as a module-level variable named ``application``.
 
@@ -11,6 +11,7 @@ import os
 
 from django.core.wsgi import get_wsgi_application
 
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'lab3_test.settings')
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'lab3-8.settings')
 
 application = get_wsgi_application()
+app = application
